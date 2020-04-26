@@ -9,7 +9,7 @@ h1 {
 p {
   font-family: lato;
   font-size: 24px;
-  color: #0000;
+  color: #000000;
   font-weight: regular;
   margin:0px;
 }
@@ -19,7 +19,8 @@ button {
   border: none;
   color: white;
   border-radius: 50px;
-  padding: 7px 120px;
+  width: 281px;
+  height: 38px;
   text-align: center;
   display: inline-block;
   font-size: 24px;
@@ -27,9 +28,8 @@ button {
 }
 
 input[type=text] {
-  width: 350px;
-  height: 7px;
-  padding: 20px;
+  width: 281px;
+  height: 38px;
   box-sizing: border-box;
   border: 3px solid #ccc;
   -webkit-transition: 0.5s;
