@@ -1,7 +1,13 @@
-function kilostoPounds(kilos) { return ((kilos * 2.2046).toFixed()) }
-const finalPound = kilostoPounds(75);
+const changeValue = () => {
+var teste = document.getElementById("fname").value;  
+function kilostoPounds(teste) { return ((teste * 2.2046).toFixed()) }
+const finalPound = kilostoPounds(teste);
+
 
 switch (true) {
+    case finalPound == 0:
+        document.getElementById("resultPound").innerHTML = `Coloque seu peso e vamos transformar em libras para descobrir em que categoria do UFC você lutaria!`;
+        break;
     case finalPound <= 123:
         document.getElementById("resultPound").innerHTML = `Você seria da categoria <b>Peso Mosca</b>, pois você tem o que equivale a ${finalPound}lb`;
         break;
@@ -27,4 +33,5 @@ switch (true) {
         document.getElementById("resultPound").innerHTML = `Você seria da categoria <b>Peso Pesado</b>, pois você tem o que equivale a ${finalPound}lb`;
         break;
     default: document.getElementById("resultPound").innerHTML = "Digite um peso correto";
+}
 }
