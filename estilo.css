@@ -98,11 +98,13 @@ white-space: nowrap;
     padding: 5px 15px;
 }
 
-/* .gender input[type="radio"]:checked + label {
-  background-color:#bfb;
-  border-color: #4c4;
+.gender input[type="radio"]:checked + label {
+  background-color:#FF7979;
+  color: white;
+  font-weight: bold;
 }
- */
+
+
 .gender input[type="radio"]:focus + label {
   background-color:#FF7979;
   color: white;
