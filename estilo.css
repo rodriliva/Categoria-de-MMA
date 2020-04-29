@@ -78,3 +78,37 @@ left: 50%;
 transform: translate(-50%, -50%);
 white-space: nowrap;
 }
+
+.gender input[type="radio"] {
+  opacity: 0;
+  position: fixed;
+  width: 0;
+}
+
+.gender {
+  color:#EA8079;
+  font-size: 24px;
+  font-family: lato;
+  margin: 20px 0px 25px 0px;
+}
+
+.gender label {
+    border: 1px solid #EA8079;
+    border-radius: 50px;
+    padding: 5px 15px;
+}
+
+/* .gender input[type="radio"]:checked + label {
+  background-color:#bfb;
+  border-color: #4c4;
+}
+ */
+.gender input[type="radio"]:focus + label {
+  background-color:#FF7979;
+  color: white;
+  font-weight: bold;
+}
+
+.gender label:hover {
+  background-color: rgba(255, 0, 0, 0.247);
+}
