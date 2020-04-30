@@ -27,6 +27,7 @@ button {
   font-size: 24px;
   font-family: lato;
   margin: 10px 0px;
+  cursor:pointer
 }
 
 button:hover {
@@ -90,18 +91,21 @@ white-space: nowrap;
   font-size: 24px;
   font-family: lato;
   margin: 20px 0px 25px 0px;
+  cursor:pointer
 }
 
 .gender label {
     border: 1px solid #EA8079;
     border-radius: 50px;
     padding: 5px 15px;
+    cursor:pointer
 }
 
 .gender input[type="radio"]:checked + label {
   background-color:#FF7979;
   color: white;
   font-weight: bold;
+  cursor:pointer
 }
 
 
@@ -109,6 +113,7 @@ white-space: nowrap;
   background-color:#FF7979;
   color: white;
   font-weight: bold;
+  cursor:pointer
 }
 
 .gender label:hover {
